@@ -1,6 +1,6 @@
 import React from 'react'
-import Work1 from '../asset/projects/workImg.jpeg'
-import Work2 from '../asset/projects/realestate.jpg'
+import UIIAdmisi from '../asset/projects/UIIAdmisi.png'
+import RCT from '../asset/projects/RCT.png'
 
 const Work = () => {
     return (
@@ -14,106 +14,36 @@ const Work = () => {
 
             <div className='max-w-[90%] grid sm:grid-cols-2 md:grid-cols-3 gap-4 mx-auto'>
                 {/* Container */}
-                <div style={{ backgroundImage: `url(${Work1})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center  content-div'>
+                <div style={{ backgroundImage: `url(${UIIAdmisi})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                        <span className='text-2xl font-bold text-white tracking-wider '>
+                            Laravel Lumen Web Services
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            <a href="https://admisi.uii.ac.id/landing">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View</button>
                             </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
+
                         </div>
                     </div>
                 </div>
 
                 {/* Container */}
-                <div style={{ backgroundImage: `url(${Work2})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center  content-div'>
+                <div style={{ backgroundImage: `url(${RCT})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center content-div'>
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
+                        <span className='text-2xl font-bold text-white tracking-wider '>
+                            Laravel + Bootstrap Application
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            <a href="https://ruangciptateknologi.com/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View</button>
                             </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
+
                         </div>
                     </div>
                 </div>
 
-                {/* Container */}
-                <div style={{ backgroundImage: `url(${Work1})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center  content-div'>
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
 
-                {/* Container */}
-                <div style={{ backgroundImage: `url(${Work2})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center  content-div'>
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Container */}
-                <div style={{ backgroundImage: `url(${Work1})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center  content-div'>
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Container */}
-                <div style={{ backgroundImage: `url(${Work2})` }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center  content-div'>
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            React JS Application
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="/">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
 
 
 
