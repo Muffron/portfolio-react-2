@@ -18,7 +18,7 @@ const About = () => {
                         <p>I am a 4th year undergraduate student majoring on Informatics in Universitas Islam Indonesia.
                             Currently i'm specializing on building Backend web services using <span className='font-bold text-red-500'>Laravel Lumen</span> and <span className='font-bold text-cyan-300'>Golang</span>, although
                             currently i'm also learning to become a Fullstack developer using <span className='font-bold text-[#61DBFB]'>React</span> and <span className='font-bold text-[#5e7693
-]'>Next.js</span> for the Frontend side.
+]'>Next.js</span> on the Frontend side.
                         </p>
                     </div>
                 </div>
